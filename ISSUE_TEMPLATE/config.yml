@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security issues
+    url: mailto:security@ripplemail.de
+    about: Please do not report security vulnerabilities publicly. Email us directly.
