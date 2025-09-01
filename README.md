@@ -19,7 +19,7 @@ Files in `WIP/` mirror the structure of their final location. For example:
 - [SECURITY](./WIP/SECURITY.md)
 
 ### Templates
-- [ISSUE_TEMPLATE]
+- [ISSUE_TEMPLATE](./WIP/ISSUE_TEMPLATE/)
     - [bug_report](./WIP/ISSUE_TEMPLATE/bug_report.yml)
     - [config](./WIP/ISSUE_TEMPLATE/config.yml) - configuration for issues
     - [feature_request](./WIP/ISSUE_TEMPLATE/feature_request.yml)
