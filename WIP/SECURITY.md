@@ -12,3 +12,10 @@ If you discover a security vulnerability, please help us keep users safe by foll
     - Potential impact of affected components.
 3. We will respond within **72 hours**.
 4. We will provide updates as we work to resolve the issue and may request additional information.
+
+## Responsible disclosure
+- Please give us a responsible time to fix the issue before public disclosure.
+- We will credut you in release notes if you wish.
+- Malicious or exploitative use of vulnerabilities is not permitted.
+
+Thank you for helping us keep our project and community safe!
