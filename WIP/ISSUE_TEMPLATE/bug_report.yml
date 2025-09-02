@@ -1,47 +1,26 @@
-name: "Bug Report"
-description: Report a problem with the service
+name: Bug Report
+description: File a bug report.
 title: "[Bug]: "
-labels: [bug]
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a bug! Please fill ut the form so we can help you faster.
-  - type: textarea
-    id: description
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
     attributes:
-      label: Descrine the bug
-      description: What happened? What did you expect?
-      placeholder: Clear description of the issue...
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell use, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
       required: true
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      description: Step-by-step instructions to reproduce the behaviour.
-      placeholder: |
-        1. Go to '...'
-        2. Do '...'
-        3. See error '...'
-      validations:
-        required: true
-    - type: input
-      id: environment
-      attributes:
-        label: Environment
-        description: OS, browser, device
-        placeholder: e.g. Windows 11, Chrome 117, IOS 16
-    - type: textarea
-      id: logs
-      attributes:
-        label: Relevant logs / screenshots
-        description: Copy error logs or screenshots if possible.
-        render: shell
-    - type: checkboxes
-      id: confirmations
-      attributes:
-        label: Confirmation
-        options:
-          - label: I have searched existing issues
-            required: true
